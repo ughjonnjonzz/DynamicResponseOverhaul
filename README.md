@@ -1,4 +1,4 @@
-# DynamicResponseOverhaul
+# Dynamic Response Overhaul
 
 ## Known Bugs:
 
