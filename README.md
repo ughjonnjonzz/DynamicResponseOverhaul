@@ -18,7 +18,7 @@ There are some characters with minor differences to reflect growth in their stor
 Every line of dialogue, for every character, for every single item, in every single tier, was written by me.
 
 ### Custom Gift Dialogue Utility:
-Enables NPCs' unique dialogue when receiving gifts. Technically optional.
+Enables NPCs' unique dialogue when receiving gifts. Technically optional, but this is the main purpose of DRO.
 
 Makes use of:
   - `GiftReaction_`
