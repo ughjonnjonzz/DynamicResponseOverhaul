@@ -15,5 +15,9 @@ Once all the dialogue is finished, there are no more plans for DRO -- at least o
     - _function currently broken; Stats As Tokens needs to update_
 
 ## Changelog:
+**0.1.0:**
+  - Abigail complete
+
 **0.0.9:**
   - basic functions... functional. it lives!
+  - translation capable!
