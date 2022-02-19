@@ -1,0 +1,475 @@
+{
+	"Format": "1.24.0",
+	"ConfigSchema": {
+		"Unique Gift Dialogue": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable NPC's unique dialogue when receiving gifts, based on their heart level. (The main purpose of this mod, but if you only want the extra content, you can disable this.)"
+		},
+		"Unique Response Core": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable additional NPC dialogue specifically for receiving bouquets and Mermaid Pendants. Leave this disabled if you don't have MissCoriel's Unique Courtship Response Core, or if you want to use someone else's content pack for it."
+		},
+		"More Conversation Topics": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable bonus NPC reactions to special events (the Luau, weddings, etc.). Leave this disabled if you don't have violetlizabet's More Conversation Topics, or if you want to use someone else's content pack for it."
+		},
+		"Abigail": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Abigail's unique dialogue."
+		},
+		"Alex": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Alex's unique dialogue."
+		},
+		"Caroline": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Caroline's unique dialogue."
+		},
+		"Clint": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Clint's unique dialogue."
+		},
+		"Demetrius": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Demetrius's unique dialogue."
+		},
+		"Emily": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable the dwarf's unique dialogue."
+		},
+		"Elliott": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Emily's unique dialogue."
+		},
+		"Dwarf": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Elliott's unique dialogue."
+		},
+		"Evelyn": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Granny Evelyn's unique dialogue."
+		},
+		"George": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable George's unique dialogue."
+		},
+		"Gus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Gus's unique dialogue."
+		},
+		"Harvey": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Harvey's unique dialogue."
+		},
+		"Haley": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Haley's unique dialogue."
+		},
+		"Jas": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Jas's unique dialogue."
+		},
+		"Jodi": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Jodi's unique dialogue."
+		},
+		"Kent": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Kent's unique dialogue."
+		},
+		"Krobus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Krobus's unique dialogue."
+		},
+		"Leah": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Leah's unique dialogue."
+		},
+		"Leo": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Leo's unique dialogue."
+		},
+		"Lewis": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Lewis's unique dialogue."
+		},
+		"Linus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Linus's unique dialogue."
+		},
+		"Marnie": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Marnie's unique dialogue."
+		},
+		"Maru": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Maru's unique dialogue."
+		},
+		"Pam": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Pam's unique dialogue."
+		},
+		"Penny": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Penny's unique dialogue."
+		},
+		"Pierre": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Pierre's unique dialogue."
+		},
+		"Robin": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Robin's unique dialogue."
+		},
+		"Sam": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Sam's unique dialogue."
+		},
+		"Sandy": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Sandy's unique dialogue."
+		},
+		"Sebastian": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Sebastian's unique dialogue."
+		},
+		"Shane": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Shane's unique dialogue."
+		},
+		"Vincent": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Vincent's unique dialogue."
+		},
+		"Willy": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable Willy's unique dialogue."
+		},
+		"Wizard": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable the wizard's unique dialogue."
+		}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "1stChild.Gender",
+			"Value": "{{ChildGenders|valueAt=0}}"
+		}
+	],
+
+	"Changes": [
+		{
+			"LogName": "Abigail",
+			"Action": "Include",
+			"FromFile": "Data/default/Abigail.json",
+			"When": {
+				"Abigail": true
+			}
+		},
+		{
+			"LogName": "Alex",
+			"Action": "Include",
+			"FromFile": "Data/default/Alex.json",
+			"When": {
+				"Alex": true
+			}
+		},
+		{
+			"LogName": "Caroline",
+			"Action": "Include",
+			"FromFile": "Data/default/Caroline.json",
+			"When": {
+				"Caroline": true
+			}
+		},
+		{
+			"LogName": "Clint",
+			"Action": "Include",
+			"FromFile": "Data/default/Clint.json",
+			"When": {
+				"Clint": true
+			}
+		},
+		{
+			"LogName": "Demetrius",
+			"Action": "Include",
+			"FromFile": "Data/default/Demetrius.json",
+			"When": {
+				"Demetrius": true
+			}
+		},
+		{
+			"LogName": "Dwarf",
+			"Action": "Include",
+			"FromFile": "Data/default/Dwarf.json",
+			"When": {
+				"Dwarf": true,
+				"Relationship:Dwarf": "Friendly"
+			}
+		},
+		{
+			"LogName": "Elliott",
+			"Action": "Include",
+			"FromFile": "Data/default/Elliott.json",
+			"When": {
+				"Elliott": true
+			}
+		},
+		{
+			"LogName": "Emily",
+			"Action": "Include",
+			"FromFile": "Data/default/Emily.json",
+			"When": {
+				"Emily": true
+			}
+		},
+		{
+			"LogName": "Evelyn",
+			"Action": "Include",
+			"FromFile": "Data/default/Evelyn.json",
+			"When": {
+				"Evelyn": true
+			}
+		},
+		{
+			"LogName": "George",
+			"Action": "Include",
+			"FromFile": "Data/default/George.json",
+			"When": {
+				"George": true
+			}
+		},
+		{
+			"LogName": "Gus",
+			"Action": "Include",
+			"FromFile": "Data/default/Gus.json",
+			"When": {
+				"Gus": true
+			}
+		},
+		{
+			"LogName": "Haley",
+			"Action": "Include",
+			"FromFile": "Data/default/Haley.json",
+			"When": {
+				"Haley": true
+			}
+		},
+		{
+			"LogName": "Harvey",
+			"Action": "Include",
+			"FromFile": "Data/default/Harvey.json",
+			"When": {
+				"Harvey": true
+			}
+		},
+		{
+			"LogName": "Jas",
+			"Action": "Include",
+			"FromFile": "Data/default/Jas.json",
+			"When": {
+				"Jas": true
+			}
+		},
+		{
+			"LogName": "Jodi",
+			"Action": "Include",
+			"FromFile": "Data/default/Jodi.json",
+			"When": {
+				"Jodi": true
+			}
+		},
+		{
+			"LogName": "Kent",
+			"Action": "Include",
+			"FromFile": "Data/default/Kent.json",
+			"When": {
+				"Kent": true,
+				"Relationship:Kent": "Friendly"
+			}
+		},
+		{
+			"LogName": "Krobus",
+			"Action": "Include",
+			"FromFile": "Data/default/Krobus.json",
+			"When": {
+				"Krobus": true
+			}
+		},
+		{
+			"LogName": "Leah",
+			"Action": "Include",
+			"FromFile": "Data/default/Leah.json",
+			"When": {
+				"Leah": true
+			}
+		},
+		{
+			"LogName": "Leo",
+			"Action": "Include",
+			"FromFile": "Data/default/Leo.json, Data/default/LeoMainland.json",
+			"When": {
+				"Leo": true,
+				"Relationship:Leo": "Friendly"
+			}
+		},
+		{
+			"LogName": "Lewis",
+			"Action": "Include",
+			"FromFile": "Data/default/Lewis.json",
+			"When": {
+				"Lewis": true
+			}
+		},
+		{
+			"LogName": "Linus",
+			"Action": "Include",
+			"FromFile": "Data/default/Linus.json",
+			"When": {
+				"Linus": true
+			}
+		},
+		{
+			"LogName": "Marnie",
+			"Action": "Include",
+			"FromFile": "Data/default/Marnie.json",
+			"When": {
+				"Marnie": true
+			}
+		},
+		{
+			"LogName": "Maru",
+			"Action": "Include",
+			"FromFile": "Data/default/Maru.json",
+			"When": {
+				"Maru": true
+			}
+		},
+		{
+			"LogName": "Pam",
+			"Action": "Include",
+			"FromFile": "Data/default/Pam.json",
+			"When": {
+				"Pam": true
+			}
+		},
+		{
+			"LogName": "Penny",
+			"Action": "Include",
+			"FromFile": "Data/default/Penny.json",
+			"When": {
+				"Penny": true
+			}
+		},
+		{
+			"LogName": "Pierre",
+			"Action": "Include",
+			"FromFile": "Data/default/Pierre.json",
+			"When": {
+				"Pierre": true
+			}
+		},
+		{
+			"LogName": "Robin",
+			"Action": "Include",
+			"FromFile": "Data/default/Robin.json",
+			"When": {
+				"Robin": true
+			}
+		},
+		{
+			"LogName": "Sam",
+			"Action": "Include",
+			"FromFile": "Data/default/Sam.json",
+			"When": {
+				"Sam": true
+			}
+		},
+		{
+			"LogName": "Sandy",
+			"Action": "Include",
+			"FromFile": "Data/default/Sandy.json",
+			"When": {
+				"Sandy": true,
+				"Relationship:Sandy": "Friendly"
+			}
+		},
+		{
+			"LogName": "Sebastian",
+			"Action": "Include",
+			"FromFile": "Data/default/Sebastian.json",
+			"When": {
+				"Sebastian": true
+			}
+		},
+		{
+			"LogName": "Shane",
+			"Action": "Include",
+			"FromFile": "Data/default/Shane.json",
+			"When": {
+				"Shane": true
+			}
+		},
+		{
+			"LogName": "Vincent",
+			"Action": "Include",
+			"FromFile": "Data/default/Vincent.json",
+			"When": {
+				"Vincent": true
+			}
+		},
+		{
+			"LogName": "Willy",
+			"Action": "Include",
+			"FromFile": "Data/default/Willy.json",
+			"When": {
+				"Willy": true
+			}
+		},
+		{
+			"LogName": "Wizard",
+			"Action": "Include",
+			"FromFile": "Data/default/Wizard.json",
+			"When": {
+				"Wizard": true
+			}
+		}
+	]
+}
