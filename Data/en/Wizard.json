@@ -1,0 +1,347 @@
+{
+	"Changes": [
+		{
+			"LogName": "Wizard: 0-2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Wizard": "{{Range: 0, 2}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Wizard: 2-6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Wizard": "{{Range: 2, 6}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Wizard: 6-8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Wizard": "{{Range: 6, 8}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Wizard: 8-10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Wizard": "{{Range: 8, 10}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		// UNIQUE COURTSHIP RESPONSE CORE
+		{
+			"LogName": "Wizard: URC: Birthday, 0-2",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Wizard": "{{Range: 0, 2}}"
+			}
+		},
+		{
+			"LogName": "Wizard: URC: Birthday, 2-6",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Wizard": "{{Range: 2, 6}}"
+			}
+		},
+		{
+			"LogName": "Wizard: URC: Birthday, 6-8",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Wizard": "{{Range: 6, 8}}"
+			}
+		},
+		{
+			"LogName": "Wizard: URC: Birthday, 8-10",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Wizard": "{{Range: 8, 10}}"
+			}
+		},
+		// MORE CONVERSATION TOPICS
+		{
+			"LogName": "Wizard: MT",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"wedding": "...",
+				"luauBest": "...",
+				"luauShorts": "...",
+				"luauPoisoned": "...",
+				"divorce": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly"
+			}
+		},
+		{
+			"LogName": "Wizard: MT: 1stExpecting",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"expecting1stChild": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=0}}": false,
+				"HavingChild": "{{spouse}}"
+			}
+		},
+		{
+			"LogName": "Wizard: MT: 1st Child",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"babyBoy": "...",
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=1}}": false,
+			}
+		},
+		{
+			"LogName": "Wizard: MT: 2ndExpecting",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"expecting2ndChild": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=0}}": true,
+				"HavingChild": "{{spouse}}"
+			}
+		},
+		{
+			"LogName": "Wizard: MT: 2nd Child, Female",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Male}}": true
+			}
+		},
+		{
+			"LogName": "Wizard: MT: 2nd Child, Male",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"babyBoy": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Female}}": true
+			}
+		},
+		// WIZARD'S RELATIONS
+		// KROBUS
+		{
+			"LogName": "Wizard: MT: Krobus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"wedding": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"Relationship:Krobus": "Married"
+			}
+		},
+		{
+			"LogName": "Wizard: MT: Krobus:D",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"divorce": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Wizard": "Friendly",
+				"Relationship:Krobus": "Divorced"
+			}
+		}
+	]
+}
