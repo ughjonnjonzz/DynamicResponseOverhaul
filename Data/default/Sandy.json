@@ -1,0 +1,396 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sandy: 0-2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Sandy": "{{Range: 0, 2}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Sandy: 2-6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Sandy": "{{Range: 2, 6}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Sandy: 6-8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Sandy": "{{Range: 6, 8}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		{
+			"LogName": "Sandy: 8-10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				// LOVED GIFTS
+				"GiftReaction_Golden_Pumpkin": "...",
+				"GiftReaction_Magic_Rock_Candy": "...",
+				"GiftReaction_Pearl": "...",
+				"GiftReaction_Prismatic_Shard": "...",
+				"GiftReaction_Rabbit's_Foot": "...",
+				// LIKED GIFTS
+				"GiftReactionCategory_-26": "...",
+				"GiftReactionCategory_-7": "...",
+				"GiftReactionCategory_-80": "...",
+				"GiftReactionCategory_-2": "...",
+				// NEUTRAL GIFTS
+				"GiftReaction_": "...",
+				// DISLIKED GIFTS
+				"GiftReactionCategory_-19": "...",
+				"GiftReactionCategory_-4": "...",
+				"GiftReactionCategory_-74": "...",
+				"GiftReactionCategory_-22": "...",
+				// HATED GIFTS
+				"GiftReactionCategory_-21": "...",
+				"GiftReactionCategory_-28": "...",
+				"GiftReactionCategory_-20": "...",
+			},
+			"When": {
+				"Hearts:Sandy": "{{Range: 8, 10}}",
+				"Unique Gift Dialogue": true,
+				"HasMod": "PurrplingCat.CustomGiftDialogue"
+			}
+		},
+		// UNIQUE COURTSHIP RESPONSE CORE
+		{
+			"LogName": "Sandy: URC: Birthday, 0-2",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Sandy": "{{Range: 0, 2}}"
+			}
+		},
+		{
+			"LogName": "Sandy: URC: Birthday, 2-6",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Sandy": "{{Range: 2, 6}}"
+			}
+		},
+		{
+			"LogName": "Sandy: URC: Birthday, 6-8",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Sandy": "{{Range: 6, 8}}"
+			}
+		},
+		{
+			"LogName": "Sandy: URC: Birthday, 8-10",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"birthdayLoveA": "...",
+				"birthdayLoveB": "...",
+				"birthdayLikeA": "...",
+				"birthdayLikeB": "...",
+				"birthdayNeutralA": "...",
+				"birthdayNeutralB": "...",
+				"birthdayDislikeA": "...",
+				"birthdayDislikeB": "..."
+			},
+			"When": {
+				"Unique Response Core": true,
+				"HasMod": "misscoriel.UCRFix",
+				"Hearts:Sandy": "{{Range: 8, 10}}"
+			}
+		},
+		// MORE CONVERSATION TOPICS
+		{
+			"LogName": "Sandy: MT",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"wedding": "...",
+				"luauBest": "...",
+				"luauShorts": "...",
+				"luauPoisoned": "...",
+				"divorce": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly"
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 1stExpecting",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"expecting1stChild": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=0}}": false,
+				"HavingChild": "{{spouse}}"
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 1st Child",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyBoy": "...",
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=1}}": false,
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 2ndExpecting",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"expecting2ndChild": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=0}}": true,
+				"HavingChild": "{{spouse}}"
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 2nd Child, Female",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Male}}": true
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 2nd Child, Male",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyBoy": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Female}}": true
+			}
+		},
+		// SANDY'S RELATIONS
+		// EMILY
+		{
+			"LogName": "Sandy: MT: Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"wedding": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"Relationship:Emily": "Married"
+			}
+		},
+		{
+			"LogName": "Sandy: MT: Emily:D",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"divorce": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"Relationship:Emily": "Divorced"
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 1st Child: Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyBoy": "...",
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"Relationship:Emily": "Married",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{ChildGenders|valueAt=1}}": false
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 2nd Child, Female: Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyGirl": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"Relationship:Emily": "Married",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Male}}": true
+			}
+		},
+		{
+			"LogName": "Sandy: MT: 2nd Child, Male: Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"babyBoy": "..."
+			},
+			"When": {
+				"More Conversation Topics": true,
+				"HasMod": "violetlizabet.MoreConvoTopics",
+				"Relationship:Sandy": "Friendly",
+				"Relationship:Emily": "Married",
+				"HasValue: {{ChildGenders}}": true,
+				"HasValue: {{1stChild.Gender|contains=Female}}": true
+			}
+		}
+	]
+}
