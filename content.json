@@ -4,7 +4,7 @@
 		"Unique Gift Dialogue": {
 			"AllowValues": "true, false",
 			"Default": true,
-			"Description": "Enable NPC's unique dialogue when receiving gifts, based on their heart level. (The main purpose of this mod, but if you only want the extra content, you can disable this.)"
+			"Description": "Enable NPC's unique dialogue when receiving gifts, based on their heart level. (The main purpose of this mod, but if you only want the extra content, you can disable this.) Requires PurrplingCat's Custom Gift Dialogue Utility."
 		},
 		"Unique Response Core": {
 			"AllowValues": "true, false",
@@ -15,6 +15,11 @@
 			"AllowValues": "true, false",
 			"Default": true,
 			"Description": "Enable bonus NPC reactions to special events (the Luau, weddings, etc.). Leave this disabled if you don't have violetlizabet's More Conversation Topics, or if you want to use someone else's content pack for it."
+		},
+		"Custom Tokens": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Enable extra post-marriage dialogue (i.e. anniversary responses). Leave this disabled if you don't have TheMightyAmondee's Custom Tokens."
 		},
 		"Abigail": {
 			"AllowValues": "true, false",
@@ -191,6 +196,30 @@
 		{
 			"Name": "1stChild.Gender",
 			"Value": "{{ChildGenders|valueAt=0}}"
+		},
+		{
+			"Name": "AnniDay",
+			"Value": "{{TheMightyAmondee.CustomTokens/AnniversaryDay}}",
+			"When": {
+				"Custom Tokens": true,
+				"HasMod": "TheMightyAmondee.CustomTokens"
+			}
+		},
+		{
+			"Name": "AnniSeason",
+			"Value": "{{TheMightyAmondee.CustomTokens/AnniversarySeason}}",
+			"When": {
+				"Custom Tokens": true,
+				"HasMod": "TheMightyAmondee.CustomTokens"
+			}
+		},
+		{
+			"Name": "YearsMarried",
+			"Value": "{{TheMightyAmondee.CustomTokens/YearsMarried}}",
+			"When": {
+				"Custom Tokens": true,
+				"HasMod": "TheMightyAmondee.CustomTokens"
+			}
 		}
 	],
 
