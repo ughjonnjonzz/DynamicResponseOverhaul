@@ -47,11 +47,21 @@ Enables NPCs' unique reactions to:
   - `Player`'s newborn child
   - the best outcome at the Luau
   - the soup being poisoned at the Luau
-  - Mayor Lewis's unmentionables winding up in the soup at the Luau
+  - Mayor Lewis's unmentionables in the soup at the Luau
 
 This is every function currently available, and DRO makes use of all of them, with a fun bonus: NPC reactions when the `Player` is _expecting_ a child, not just after it's born. On top of that, through the use of `When:` conditions and a special Dynamic Token (`{{1stChild.Gender}}`), villagers will know the gender of the first child and react to the gender of the second child accordingly, both before and after birth.
 
 [Full documentation](https://github.com/elizabethcd/MoreConversationTopics/tree/main/docs)
+
+### Custom Tokens:
+Enables post-marriage dialogue, specifically on your anniversary. All NPCs have special dialogue to congratulate you, and your spouse reacts uniquely to gifts given on the day.
+
+Makes use of:
+  - `AnniversaryDay`
+  - `AnniversarySeason`
+  - `YearsMarried`
+
+[Full documentation](https://github.com/TheMightyAmondee/CustomTokens/blob/master/README.md)
 
 ## Known Issues:
 `divorce`: If you divorce `Character B` after having previously divorced `Character A`, `Character A` will react with the same dialogue they used after their own divorce.
