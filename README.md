@@ -22,12 +22,14 @@ Enables NPCs' unique dialogue when receiving gifts. Technically optional, but th
 
 Makes use of:
   - `GiftReaction_`
+  - `GiftReactionTag_`[^1]
   - `GiftReactionCategory_`
   - `GiftReactionPreserved_`
   - `_Birthday`
   - `_SecretSanta`
 
 [Full documentation](https://github.com/purrplingcat/StardewMods/tree/master/CustomGiftDialogue#create-gift-reaction-dialogues)
+[^1]: Fun fact: I think a [question I asked](https://forums.nexusmods.com/index.php?showtopic=9406113/#entry105545063) on CGDU's Nexus page led to this function being added! I'm honored!
 
 ### Unique Courtship Response Core:
 Enables NPCs' unique dialogue for:
@@ -48,8 +50,16 @@ Enables NPCs' unique reactions to:
   - the best outcome at the Luau
   - the soup being poisoned at the Luau
   - Mayor Lewis's unmentionables in the soup at the Luau
+  - purchasing the Greenhouse repairs from Joja
+  - completing the Joja Community Development Program
+  - the abandoned Joja Mart being struck by lightning
+  - repairing Willy's boat, allowing access to Ginger Island
+  - Leo moving to the valley
+  - random overnight events on your farm (see note below)
 
 This is every function currently available, and DRO makes use of all of them, with a fun bonus: NPC reactions when the `Player` is _expecting_ a child, not just after it's born. On top of that, through the use of `When:` conditions and a special Dynamic Token (`{{1stChild.Gender}}`), villagers will know the gender of the first child and react to the gender of the second child accordingly, both before and after birth.
+
+Note about overnight events: not everyone will have dialogue about these events. Your spouse will, since they also experience them, and it's likely the Wizard will (especially ones involving the Witch), but the average villager isn't going to know about the strange things that happen on your land. So don't worry; it's not bugged, or missing lines. This is intended behavior. I will, however, write up a full comprehensive list of who reacts to what at some point -- just in case.
 
 [Full documentation](https://github.com/elizabethcd/MoreConversationTopics/tree/main/docs)
 
